@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+header{
+    background: #3B5997;
+    padding: 10px 0;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 70%;
+    float: left;
+    padding: 15px 0 5px 0;
+}
+.login{
+    width: 30%;
+    float: right;
+}
+.logo a{
+    font-size: 45px;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 900;
+}
+form{
+    overflow: hidden;
+}
+.input{
+    width: 40%;
+    float: left;
+    padding: 7px;
+    box-sizing: border-box;
+
+}
+label{
+    color: #fff;
+}
+.input a{
+    color: #ffffff87;
+    text-decoration: none;
+}
+.submit{
+    width: 20%;
+    float: left;
+}
+.submit input:hover{
+    background: #4364adfa;
+}
+
+.input input{
+    width: 100%;
+    margin: 10px 0;
+    border:1px solid #000;
+    padding:5px 10px;
+    box-sizing: border-box;
+}
+.submit input{
+    background: #3578E5;
+    border: 1px solid #000;
+    color: #fff; 
+    padding: 7px 18px;
+    border-radius: 3px;
+    margin-top: 33px;
+
+}
+.portfolio-box{
+    background-color: white;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px #b1b1b14d;
+}
+.heading{
+    text-align: center;
+    padding: 50px;
+}
+h2{
+    margin: 0;
+    font-size: 40px;
+    color: #525252;
+}
+span{
+    color: #3517d2e0;
+}
+h1{
+    margin: 0;
+    font-size: 55px;
+    margin-bottom: 15px;
+    color: black;
+}
+img{
+    box-shadow: 8px 8px 10px #b1aeae;
+    height: 500px;
+}
+.details{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+h3{
+    font-size: 30px;
+    margin: 0;
+    color: #bb488d;
+}
+p{
+    line-height: 1.5;
+    font-size: 24px;
+    color: #525252;
+}
+ul{
+    margin: 0;
+}
+li{
+    font-size: 20px;
+    color: #383838;
+    margin-bottom: 6px;
+    list-style-type: decimal-leading-zero;
+}
+.portfolio-section{
+    padding: 70px 10;
+}
+.portfolio{
+    width: 35%;
+    float: left;
+    padding: 8px;
+    margin:9;
+     
+}
+.portfolio a img{
+    max-width: 70%;
+    height: 250px;
+}
